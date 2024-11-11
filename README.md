@@ -6,7 +6,7 @@
 
 ## Build
 
-```
+```sh
 mkdir build 
 cd build 
 cmake .. -DOCR_USE_GPU=[ON | OFF]
@@ -19,7 +19,7 @@ make
 
 可以运行 `tools` 目录中附带的脚本自动下载 ncnn 并编译
 
-```
+```sh
 mkdir build 
 cd build
 ../tools/get_ncnn.sh
